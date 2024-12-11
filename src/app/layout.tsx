@@ -11,6 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <b>我是app下的layout 文件</b>
         {children}
       </body>
     </html>
