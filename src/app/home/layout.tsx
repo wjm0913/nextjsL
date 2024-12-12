@@ -12,14 +12,14 @@ export default function Index({
   const [count, setCount] = useState(0);
   return (
     <div className='home_layout'>
-      <h2>我是根 home 的 Layout ----- {count}</h2>
-      <div>
-        <Link href="/home/home0">home0</Link> ----- 
-        <Link href="/home/home1">home1</Link>
-      </div>
-      <button onClick={() => {
-        setCount(count + 1);
-      }}>++</button>
+      {/*<h2>我是根 home 的 Layout ----- {count}</h2>*/}
+      {/*<div>*/}
+      {/*  <Link href="/home/home0">home0</Link> ----- */}
+      {/*  <Link href="/home/home1">home1</Link>*/}
+      {/*</div>*/}
+      {/*<button onClick={() => {*/}
+      {/*  setCount(count + 1);*/}
+      {/*}}>++</button>*/}
       {children}
     </div>
   );
